@@ -96,3 +96,7 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
+.cube {
+	color: white;
+	fill: currentColor;
+}
