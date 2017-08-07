@@ -1,3 +1,7 @@
+		body{
+			background-image: url(bg.jpg);
+			background-size: cover;
+		}
 		:root{
 			--size: calc(100vh/4);
 			--Lsize: calc(100vw/-2);
