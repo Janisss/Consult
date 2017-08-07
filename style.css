@@ -13,10 +13,10 @@
 			--Lsize: calc(100vw/-2);
 			--minusSize: calc(100vh/-4);
 			--bigSize: calc(var(--size) * 2);
-			--colorA: #82b1ff;
-			--colorB: #448aff;
-			--colorC: #2979ff;
-			--colorD: #2962ff;
+			--colorA: #996A3C;
+			--colorB: #993189;
+			--colorC: #625498;
+			--colorD: #579955;
 		}
 		.cube-center{
 			width: calc(2*var(--size));
