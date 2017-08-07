@@ -46,23 +46,30 @@
 		$(".cubeA").click(function(){
 			$(".content").addClass("active");
 			$(".content").empty();
-			$.ajax('menu/content-a.html', {
-			   success: function(response) {
-				   $(".content").html(response).fadeIn(1000);
-			   }
-			});//ajax
+			setTimeout(function(){
+				$.ajax('menu/content-a.html', {
+					success: function(response) {
+						$(".content").html(response);
+					}
+				});//ajax
+			}, 400);
 		});
+		
 		$(".cubeB").click(function(){
 			$(".content").addClass("active");
 		});
+		
 		$(".cubeC").click(function(){
 			$(".content").addClass("active");
 		});
+		
 		$(".cubeD").click(function(){
 			$(".content").addClass("active");
 		});
+		
 		$(".home").click(function(){
 			$(".content").removeClass("active");
+			$(".content").empty();
 		});
 		
 		

@@ -93,6 +93,13 @@
 	width: var(--menuSize);
 	height: var(--menuSize);
 	background: gray;
+	float: left;
+}
+.empty-block{
+	width: var(--menuSize);
+	height: var(--menuSize);
+	background: transparent;
+	float: left;
 }
 .content.active{
 		left: auto;
