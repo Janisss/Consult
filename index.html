@@ -28,7 +28,7 @@
 			<span class="menu-text">UNTERNEHMENSBERATUNG</span>
 	  	</div>
 	  	<div class="cube cubeB">
-	  		<img src="letters/b.svg" alt="B" class="letter">
+	  		<img src="letters/i.svg" alt="B" class="letter">
 	  		<span class="menu-text">IMMOBILIEN</span>
 	  	</div>
 	  	<div class="cube cubeC">
@@ -45,6 +45,12 @@
 	<script type="text/javascript">
 		$(".cubeA").click(function(){
 			$(".content").addClass("active");
+			$(".content").empty();
+			$.ajax('menu/content-a.html', {
+			   success: function(response) {
+				   $(".content").html(response).fadeIn(1000);
+			   }
+			});//ajax
 		});
 		$(".cubeB").click(function(){
 			$(".content").addClass("active");
@@ -58,6 +64,8 @@
 		$(".home").click(function(){
 			$(".content").removeClass("active");
 		});
+		
+		
 	</script>
 	<script src="bootstrap.js"></script>
   </body>

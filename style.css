@@ -13,6 +13,7 @@
 			--Lsize: calc(100vw/-2);
 			--minusSize: calc(100vh/-4);
 			--bigSize: calc(var(--size) * 2);
+			--menuSize: calc(var(--bigSize) / 3);
 			--colorA: #996A3C;
 			--colorB: #993189;
 			--colorC: #625498;
@@ -88,6 +89,11 @@
 			height:0;
 			transition: all .4s ease;
 		}
+.cstm-menu{
+	width: var(--menuSize);
+	height: var(--menuSize);
+	background: gray;
+}
 .content.active{
 		left: auto;
 		width: var(--bigSize);
@@ -95,6 +101,7 @@
 		margin-left: auto;
 		margin-right: auto;
 }
+
 .cube {
 	color: white;
 	fill: currentColor;
