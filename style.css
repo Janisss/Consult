@@ -18,6 +18,7 @@
 			--colorC: #625498;
 			--colorD: #579955;
 		}
+
 		.cube-center{
 			width: calc(2*var(--size));
 			margin-top: var(--size);
