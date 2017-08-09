@@ -66,6 +66,3 @@
 			$("article").empty();
 		});
 		
-		//druha kategoria menu
-		
-		//koniec-druha kategoria menu
