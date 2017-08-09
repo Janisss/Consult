@@ -11,19 +11,23 @@
 		}
 		article{
 			position: absolute;
-			overflow: hidden;
 			top: var(--size);
 			left: 50%;
 			margin-left: var(--minusSize);
-			background-color: red;
+			background-color: var(--colorA);
 			z-index: 21;
 			width:0;
 			height:0;
 			transition: all .4s ease;
 		}
 		article.active{
+			overflow: scroll;
 			width: var(--bigSize);
 			height: var(--bigSize);
+		}
+		.text{
+			padding: 10px;
+			color: white;
 		}
 		:root{
 			--size: calc(100vh/4);

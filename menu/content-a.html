@@ -1,10 +1,10 @@
 <div class="cstm-menu long um"><div class="vcenter">Markteintritt</div></div>
 <div class="empty-block"></div>
 <div class="empty-block"></div>
-<div class="cstm-menu long U2"><div class="vcenter">Steuerberatung</div></div>
+<div class="cstm-menu long us"><div class="vcenter">Steuerberatung</div></div>
 <div class="empty-block"></div>
 <div class="empty-block"></div>
-<div class="cstm-menu U3"><div class="vcenter">Rechtsberatung</div></div>
+<div class="cstm-menu ur"><div class="vcenter">Rechtsberatung</div></div>
 
 
 <script type="text/javascript">
@@ -13,6 +13,30 @@ $(".um").click(function(){
 			$("article").empty();
 			setTimeout(function(){
 				$.ajax('unternehmensberatung/markteintritt.html', {
+					success: function(response) {
+						$("article").html(response);
+					}
+				});//ajax
+			}, 400);
+});
+
+$(".ur").click(function(){
+	$("article").addClass("active");
+			$("article").empty();
+			setTimeout(function(){
+				$.ajax('unternehmensberatung/steuerberatung.html', {
+					success: function(response) {
+						$("article").html(response);
+					}
+				});//ajax
+			}, 400);
+});
+
+$(".us").click(function(){
+	$("article").addClass("active");
+			$("article").empty();
+			setTimeout(function(){
+				$.ajax('unternehmensberatung/rechtsberatung.html', {
 					success: function(response) {
 						$("article").html(response);
 					}
