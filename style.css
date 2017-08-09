@@ -98,6 +98,10 @@
 	text-align: center;
 	color: white;
 }
+.csmt-menu a{
+	color: white;
+	text-decoration: none;
+}
 .cstm-menu.long{
 	width: calc(var(--menuSize) * 2);
 }
