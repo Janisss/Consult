@@ -1,3 +1,4 @@
+		
 		//SKRIPTY NA PRECHODY PRVEJ KATEGORIE V MENU
 		$(".cubeA").click(function(){
 			$(".content").addClass("active");
@@ -43,7 +44,9 @@
 				});//ajax
 			}, 400);
 		});		
-		
+		//KONIEC PRVEJ KATEGORIE
+
+
 		$(".cubeB").click(function(){
 			$(".content").addClass("active");
 		});
@@ -60,5 +63,18 @@
 			$(".content").removeClass("active");
 			$(".content").empty();
 		});
-		//KONIEC PRVEJ KATEGORIE
 		
+		//druha kategoria menu
+			$(".UM").click(function(){
+			alert("karoles");
+			$("article").addClass("active");
+			$("article").empty();
+			setTimeout(function(){
+				$.ajax('content-a/marktentritt.html', {
+					success: function(response) {
+						$("article").html(response);
+					}
+				});//ajax
+			}, 400);
+		});
+		//koniec-druha kategoria menu
