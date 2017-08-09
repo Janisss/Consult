@@ -61,7 +61,9 @@
 		
 		$(".home").click(function(){
 			$(".content").removeClass("active");
+			$("article").removeClass("active");
 			$(".content").empty();
+			$("article").empty();
 		});
 		
 		//druha kategoria menu
