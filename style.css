@@ -9,7 +9,7 @@
 			background-position: center;
 		}
 		article{
-			position: relative;
+			position: absolute;
 			overflow: hidden;
 			top: var(--size);
 			left: 50%;
@@ -21,11 +21,8 @@
 			transition: all .4s ease;
 		}
 		article.active{
-			left: auto;
 			width: var(--bigSize);
 			height: var(--bigSize);
-			margin-left: auto;
-		    margin-right: auto;
 		}
 		:root{
 			--size: calc(100vh/4);

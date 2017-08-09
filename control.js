@@ -65,16 +65,5 @@
 		});
 		
 		//druha kategoria menu
-			$(".UM").click(function(){
-			alert("karoles");
-			$("article").addClass("active");
-			$("article").empty();
-			setTimeout(function(){
-				$.ajax('content-a/marktentritt.html', {
-					success: function(response) {
-						$("article").html(response);
-					}
-				});//ajax
-			}, 400);
-		});
+		
 		//koniec-druha kategoria menu
