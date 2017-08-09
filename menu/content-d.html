@@ -1,7 +1,46 @@
-<div class="cstm-menu long"><div class="vcenter">Über uns</div></div>
+<div class="cstm-menu long wu"><div class="vcenter">Über uns</div></div>
 <div class="empty-block"></div>
 <div class="empty-block"></div>
-<div class="cstm-menu long"><div class="vcenter">Steuerberatung</div></div>
+<div class="cstm-menu long ws"><div class="vcenter">Steuerberatung</div></div>
 <div class="empty-block"></div>
 <div class="empty-block"></div>
-<div class="cstm-menu"><div class="vcenter">Rechtsberatung</div></div>
+<div class="cstm-menu wr"><div class="vcenter">Rechtsberatung</div></div>
+
+
+<script type="text/javascript">
+$(".wu").click(function(){
+	$("article").addClass("active");
+			$("article").empty();
+			setTimeout(function(){
+				$.ajax('wer-sind-wir/uber-uns.html', {
+					success: function(response) {
+						$("article").html(response);
+					}
+				});//ajax
+			}, 400);
+});
+
+$(".ws").click(function(){
+	$("article").addClass("active");
+			$("article").empty();
+			setTimeout(function(){
+				$.ajax('wer-sind-wir/steuerberatung.html', {
+					success: function(response) {
+						$("article").html(response);
+					}
+				});//ajax
+			}, 400);
+});
+
+$(".wr").click(function(){
+	$("article").addClass("active");
+			$("article").empty();
+			setTimeout(function(){
+				$.ajax('wer-sind-wir/rechtsberatng.html', {
+					success: function(response) {
+						$("article").html(response);
+					}
+				});//ajax
+			}, 400);
+});
+</script>
