@@ -1,8 +1,57 @@
-<div class="cstm-menu long"><div class="vcenter">Unternehmensdienste</div></div>
+<div class="cstm-menu long bu"><div class="vcenter">Unternehmensdienste</div></div>
 <div class="empty-block"></div>
 <div class="empty-block"></div>
-<div class="cstm-menu"><div class="vcenter">Sekretariatdienst</div></div>
-<div class="cstm-menu"><div class="vcenter">Buchhaltung</div></div>
+<div class="cstm-menu bs"><div class="vcenter">Sekretariatdienst</div></div>
+<div class="cstm-menu bb"><div class="vcenter">Buchhaltung</div></div>
 <div class="empty-block"></div>
 <div class="empty-block"></div>
-<div class="cstm-menu"><div class="vcenter">Call Center</div></div>
+<div class="cstm-menu bc"><div class="vcenter">Call Center</div></div>
+
+<script type="text/javascript">
+$(".bu").click(function(){
+	$("article").addClass("active");
+			$("article").empty();
+			setTimeout(function(){
+				$.ajax('bussiness-services/unternehmendienste.html', {
+					success: function(response) {
+						$("article").html(response);
+					}
+				});//ajax
+			}, 400);
+});
+
+$(".bs").click(function(){
+	$("article").addClass("active");
+			$("article").empty();
+			setTimeout(function(){
+				$.ajax('bussiness-services/sekretariatdienst.html', {
+					success: function(response) {
+						$("article").html(response);
+					}
+				});//ajax
+			}, 400);
+});
+
+$(".bb").click(function(){
+	$("article").addClass("active");
+			$("article").empty();
+			setTimeout(function(){
+				$.ajax('bussiness-services/buchhaltung.html', {
+					success: function(response) {
+						$("article").html(response);
+					}
+				});//ajax
+			}, 400);
+});
+$(".bc").click(function(){
+	$("article").addClass("active");
+			$("article").empty();
+			setTimeout(function(){
+				$.ajax('bussiness-services/call-center.html', {
+					success: function(response) {
+						$("article").html(response);
+					}
+				});//ajax
+			}, 400);
+});
+</script>

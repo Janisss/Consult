@@ -1,7 +1,45 @@
-<div class="cstm-menu long"><div class="vcenter">Investitionen</div></div>
+<div class="cstm-menu long ii"><div class="vcenter">Investitionen</div></div>
 <div class="empty-block"></div>
 <div class="empty-block"></div>
-<div class="cstm-menu long"><div class="vcenter">Projektierunug und Bau</div></div>
+<div class="cstm-menu long ip"><div class="vcenter">Projektierunug und Bau</div></div>
 <div class="empty-block"></div>
 <div class="empty-block"></div>
-<div class="cstm-menu"><div class="vcenter">Bewirtschaftung</div></div>
+<div class="cstm-menu ib"><div class="vcenter">Bewirtschaftung</div></div>
+
+<script type="text/javascript">
+$(".ii").click(function(){
+	$("article").addClass("active");
+			$("article").empty();
+			setTimeout(function(){
+				$.ajax('immobilien/investitionen.html', {
+					success: function(response) {
+						$("article").html(response);
+					}
+				});//ajax
+			}, 400);
+});
+
+$(".ip").click(function(){
+	$("article").addClass("active");
+			$("article").empty();
+			setTimeout(function(){
+				$.ajax('immobilien/projektierung-und-bau.html', {
+					success: function(response) {
+						$("article").html(response);
+					}
+				});//ajax
+			}, 400);
+});
+
+$(".ib").click(function(){
+	$("article").addClass("active");
+			$("article").empty();
+			setTimeout(function(){
+				$.ajax('immobilien/bewirtschaftung.html', {
+					success: function(response) {
+						$("article").html(response);
+					}
+				});//ajax
+			}, 400);
+});
+</script>
