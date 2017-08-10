@@ -46,7 +46,6 @@
 		});		
 		//KONIEC PRVEJ KATEGORIE
 
-
 		$(".cubeB").click(function(){
 			$(".content").addClass("active");
 		});
