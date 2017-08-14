@@ -159,4 +159,22 @@
 		}
 		.letter{
 
-		}		 
+		}
+		.a1, .a2, .a3, .a4{
+			background-size: cover;
+		}
+		.a1{
+			background-image: url("img/Ebene5.png");	
+		}
+		.a2{
+			background-image: url("img/Ebene4.png");	
+		}
+		.a3{
+			background-image: url("img/Ebene3.png");
+		}
+		.a4{
+			background-image: url("img/Ebene2.png");
+	    }
+.um, .us, .ur{
+	background-color: #2d5666;
+}
