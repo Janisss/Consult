@@ -115,9 +115,11 @@
 			height: var(--menuSize);
 			background: gray;
 			float: left;
-			font-size: 2vh;
+			font-size: 1.8vh;
 			text-align: center;
 			color: white;
+			font-weight:200;
+			letter-spacing: 1.5px;
 		}
 		.csmt-menu a{
 			color: white;
