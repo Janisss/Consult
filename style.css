@@ -160,10 +160,10 @@
 		.letter{
 
 		}
-		.um, .us, .ur, .ii, .ip, .ib, .bb, .bc, .bs, .bu{
+		.um, .us, .ur, .ii, .ip, .ib, .bb, .bc, .bs, .bu, .wu, .ws, .wr{
 		background-color: #2d5666;
 		}
-		.a1, .a2, .a3, .a4, .b1, .b2, .b3, .b4, .c1, .c2, .c3, .c4{
+		.a1, .a2, .a3, .a4, .b1, .b2, .b3, .b4, .c1, .c2, .c3, .c4, .d1, .d2, .d3, .d4{
 			background-size: cover;
 		}
 		.a1{
@@ -201,4 +201,16 @@
 		}
 		.c4{
 			background-image: url("img/Group4.png");
+	    }		
+		.d1{
+			background-image: url("img/Contract1.png");	
+		}
+		.d2{
+			background-image: url("img/Contract2.png");	
+		}
+		.d3{
+			background-image: url("img/Contract3.png");
+		}
+		.d4{
+			background-image: url("img/Contract4.png");
 	    }
