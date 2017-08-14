@@ -160,7 +160,10 @@
 		.letter{
 
 		}
-		.a1, .a2, .a3, .a4{
+		.um, .us, .ur, .ii, .ip, .ib, .bb, .bc, .bs, .bu{
+		background-color: #2d5666;
+		}
+		.a1, .a2, .a3, .a4, .b1, .b2, .b3, .b4, .c1, .c2, .c3, .c4{
 			background-size: cover;
 		}
 		.a1{
@@ -175,6 +178,27 @@
 		.a4{
 			background-image: url("img/Ebene2.png");
 	    }
-.um, .us, .ur{
-	background-color: #2d5666;
-}
+		.b1{
+			background-image: url("img/Office1.png");	
+		}
+		.b2{
+			background-image: url("img/Office2.png");	
+		}
+		.b3{
+			background-image: url("img/Office3.png");
+		}
+		.b4{
+			background-image: url("img/Office4.png");
+	    }
+		.c1{
+			background-image: url("img/Group1.png");	
+		}
+		.c2{
+			background-image: url("img/Group2.png");	
+		}
+		.c3{
+			background-image: url("img/Group3.png");
+		}
+		.c4{
+			background-image: url("img/Group4.png");
+	    }
