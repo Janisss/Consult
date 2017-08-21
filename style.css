@@ -29,7 +29,9 @@
 		.text{
 			padding: 10px;
 			color: #333;
+			padding-top: calc(var(--menuSize) / 2);
 		}
+
 		:root{
 			--size: calc(100vh/4);
 			--Lsize: calc(100vw/-2);
@@ -58,11 +60,6 @@
 			transition: all .4s ease;
 			z-index: 10;
 			overflow: hidden;
-		}
-		.close{
-			position: sticky;
-			top: 0px;
-		
 		}
 		.cubeA{
 			background-color: var(--colorA);
@@ -152,12 +149,17 @@
 			margin-right: auto;
 		}
 		.close{
-			width: calc(var(--menuSize) / 4);
-			height: calc(var(--menuSize) / 4);
-			line-height: calc(var(--menuSize) / 4);
+			width: calc(var(--menuSize) / 2);
+			height: calc(var(--menuSize) / 2);
+			line-height: calc(var(--menuSize) / 2);
 			background: white;
 			text-align: center;
 			opacity: 1;
+			position: sticky;
+			top: 0px;
+			z-index: 22;
+			color: #2d5666;
+			font-weight: 200
 		}
 		.close:hover{
 			opacity: 1;
@@ -223,3 +225,14 @@
 		.d4{
 			background-image: url("img/Contract4.png");
 	    }
+		h2.blue-head{
+			position: fixed;
+			height: calc(var(--menuSize) / 2);
+			width: var(--bigSize);
+			color: white;
+			background-color: #2d5666;
+			margin: 0 !important;
+			padding: 10px;
+			font-size: 3.2vh;
+			line-height: 2;
+		}
