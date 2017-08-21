@@ -8,7 +8,8 @@
 			width: 100%;
 			height: auto;
 			background-position:50% 100%;
-		}
+		} 
+
 		article{
 			position: absolute;
 			top: var(--size);
@@ -115,11 +116,12 @@
 			height: var(--menuSize);
 			background: gray;
 			float: left;
-			font-size: 1.8vh;
+			font-size: 1.5vh;
 			text-align: center;
 			color: white;
 			font-weight:200;
 			letter-spacing: 1.5px;
+			text-transform: uppercase;
 		}
 		.csmt-menu a{
 			color: white;
