@@ -155,8 +155,7 @@
 			background: white;
 			text-align: center;
 			opacity: 1;
-			position: sticky;
-			top: 0px;
+			float: right;
 			z-index: 22;
 			color: #2d5666;
 			font-weight: 200
@@ -225,7 +224,7 @@
 		.d4{
 			background-image: url("img/Contract4.png");
 	    }
-		h2.blue-head{
+		.blue-head{
 			position: fixed;
 			height: calc(var(--menuSize) / 2);
 			width: var(--bigSize);
