@@ -61,13 +61,6 @@
 			z-index: 10;
 			overflow: hidden;
 		}
-<<<<<<< HEAD
-=======
-		.close{
-			position: sticky;
-			top: 0px;
-		}
->>>>>>> e0a1751c75df37a1dfb66935c75ba168ad8e77c0
 		.cubeA{
 			background-color: var(--colorA);
 			margin-left: var(--minusSize);
