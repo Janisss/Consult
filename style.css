@@ -15,7 +15,7 @@
 			top: var(--size);
 			left: 50%;
 			margin-left: var(--minusSize);
-			background-color: var(--colorA);
+			background-color: #d9d4ab;
 			z-index: 21;
 			width:0;
 			height:0;
@@ -28,7 +28,7 @@
 		}
 		.text{
 			padding: 10px;
-			color: white;
+			color: #333;
 		}
 		:root{
 			--size: calc(100vh/4);
