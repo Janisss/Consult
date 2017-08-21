@@ -155,7 +155,7 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
-		.close{
+		.close{	
 			width: calc(var(--menuSize) / 2);
 			height: calc(var(--menuSize) / 2);
 			line-height: calc(var(--menuSize) / 2);
