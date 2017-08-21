@@ -226,13 +226,12 @@
 			background-image: url("img/Contract4.png");
 	    }
 		.blue-head{
-	
 			height: calc(var(--menuSize) / 2);
 			width: var(--bigSize);
 			z-index: 21;
 			color: white;
 			background-color: #2d5666;
-			margin: 0 !important;
+			
 			padding: 10px;
 			font-size: 3.2vh;
 			line-height: 2;
