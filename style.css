@@ -26,9 +26,9 @@ article.active {
     height: var(--bigSize);
 }
 .text {
-    padding: 10px;
+    padding: 0px 18px;
     color: #333;
-    padding-top: calc(var(--menuSize) / 2);
+    padding-top: calc(var(--menuSize) / 2.5);
 }
 :root {
     --size: calc(100vh/4);
