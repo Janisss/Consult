@@ -29,6 +29,7 @@
 		.text{
 			padding: 10px;
 			color: #333;
+			padding-top: calc(var(--menuSize) / 2);
 		}
 
 		:root{
@@ -177,8 +178,8 @@
 			color: white;
 			fill: currentColor;
 		}
-		.letter{
-
+		.stik{
+			position: fixed;
 		}
 		.um, .us, .ur, .ii, .ip, .ib, .bb, .bc, .bs, .bu, .wu, .ws, .wr{
 		background-color: #2d5666;
