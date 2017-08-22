@@ -28,7 +28,7 @@ article.active {
 .text {
     padding: 0px 18px;
     color: #333;
-    padding-top: calc(var(--menuSize) / 2.5);
+    padding-top: calc(var(--menuSize) / 2.2);
 }
 :root {
     --size: calc(100vh/4);
