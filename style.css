@@ -270,32 +270,19 @@ article.active {
     line-height: 2.2;
 }
 .marti-consult{
-	position: absolute;
-<<<<<<< HEAD
+	position:absolute;
 }
-.marti-consult{
-	width: 100px;
-    height: 100px;
- 
-    
-    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
-    animation: mymove 5s infinite;
+.marti{
+	width: var(--size);
+    margin-left: 0;
+	transition: all .6s ease-in;
 }
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
-    0%   {left: 0px;}
-	25%  {left: var(--size);}
-    75%  {left: 50px}
-    100% {left: 100px;}
+.consult{
+	width: var(--size);
+    margin-left: 0;
+	transition: all .6s ease;
+	transition-delay: .3s;
 }
-
-/* Standard syntax */
-@keyframes mymove {
-    0%   {left: 0px;}
-    25%  {left: 200px;}
-    75%  {left: 50px}
-    100% {left: 100px;}
-=======
-	z-index: 0;
->>>>>>> 7cf7253f53718c088ef483667de52993356d5039
+.marti.active, .consult.active{	
+	margin-left: var(--size);
 }

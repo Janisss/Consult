@@ -66,5 +66,8 @@
 		});
 
 		$(document).ready(function(){
-			$("marti-consult").addClass("marcoActive");
+			$(".consult").addClass("active");
+			$(".marti").addClass("active");
 		});
+		
+	
