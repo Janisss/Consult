@@ -29,7 +29,6 @@
 		.text{
 			padding: 10px;
 			color: #333;
-			padding-top: calc(var(--menuSize) / 2);
 		}
 
 		:root{
@@ -116,7 +115,6 @@
 		.cstm-menu{
 			width: var(--menuSize);
 			height: var(--menuSize);
-			background: gray;
 			float: left;
 			font-size: 1.5vh;
 			text-align: center;
@@ -124,6 +122,12 @@
 			font-weight:200;
 			letter-spacing: 1.5px;
 			text-transform: uppercase;
+			transition: all .2s ease;
+			cursor: pointer;
+		}
+		.cstm-menu:hover{
+			background-color: #d9d4ab;
+			color: #2d5666;
 		}
 		.csmt-menu a{
 			color: white;
@@ -148,7 +152,7 @@
 			margin-left: auto;
 			margin-right: auto;
 		}
-		.close-me{
+		.close-me, .close-small{
 			cursor: pointer;
 			width: calc(var(--menuSize) / 2);
 			height: calc(var(--menuSize) / 2);
@@ -157,15 +161,17 @@
 			text-align: center;
 			opacity: 1;
 			z-index: 22;
-			color: #2d5666;
-			font-weight: 200;
-			font-size: 5.5vh;
-			position: absolute;
 			top:0;
 			right:0;
+			color: #2d5666;
+			font-weight: 200;
+			font-size: 3vh;
+			position: absolute;
+			transition: background .2s ease;
 		}
-		.close:hover{
-			opacity: 1;
+
+		.close-me:hover, .close-small:hover{
+			background: rgba(237,236,236,1.00);
 		}
 		.cube {
 			color: white;
@@ -233,8 +239,7 @@
 			width: var(--bigSize);
 			color: white;
 			background-color: #2d5666;
-			
-			padding: 10px;
+			padding: 10px 20px;
 			font-size: 3.2vh;
-			line-height: 2;
+			line-height: 2.2;
 		}
