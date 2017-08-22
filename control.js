@@ -64,4 +64,3 @@
 			$(".content").empty();
 			$("article").empty();
 		});
-		
