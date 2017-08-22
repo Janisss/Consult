@@ -269,6 +269,29 @@ article.active {
     font-size: 3.2vh;
     line-height: 2.2;
 }
-.marti-constul{
+.marti-consult{
 	position: absolute;
+}
+.marti-consult{
+	width: 100px;
+    height: 100px;
+ 
+    
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    0%   {left: 0px;}
+	25%  {left: var(--size);}
+    75%  {left: 50px}
+    100% {left: 100px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {left: 0px;}
+    25%  {left: 200px;}
+    75%  {left: 50px}
+    100% {left: 100px;}
 }

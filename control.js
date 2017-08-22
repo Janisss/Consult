@@ -64,3 +64,7 @@
 			$(".content").empty();
 			$("article").empty();
 		});
+
+		$(document).ready(function(){
+			$("marti-consult").addClass("marcoActive");
+		});
