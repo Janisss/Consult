@@ -275,14 +275,17 @@ article.active {
 .marti{
 	width: var(--size);
     margin-left: 0;
-	transition: all .6s ease-in;
+	transition: all .6s ease;
+	opacity: 0;
 }
 .consult{
 	width: var(--size);
     margin-left: 0;
 	transition: all .6s ease;
 	transition-delay: .3s;
+	opacity: 0;
 }
 .marti.active, .consult.active{	
 	margin-left: var(--size);
+	opacity: 1;
 }

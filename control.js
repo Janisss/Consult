@@ -63,11 +63,15 @@
 			$("article").removeClass("active");
 			$(".content").empty();
 			$("article").empty();
+			$(".consult").addClass("active");
+			$(".marti").addClass("active");	
 		});
 
 		$(document).ready(function(){
 			$(".consult").addClass("active");
 			$(".marti").addClass("active");
 		});
-		
-	
+		$(".cube").click(function(){
+			$(".consult").removeClass("active");
+			$(".marti").removeClass("active");
+		});
