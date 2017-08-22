@@ -271,6 +271,7 @@ article.active {
 }
 .marti-consult{
 	position: absolute;
+<<<<<<< HEAD
 }
 .marti-consult{
 	width: 100px;
@@ -294,4 +295,7 @@ article.active {
     25%  {left: 200px;}
     75%  {left: 50px}
     100% {left: 100px;}
+=======
+	z-index: 0;
+>>>>>>> 7cf7253f53718c088ef483667de52993356d5039
 }
