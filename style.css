@@ -14,7 +14,7 @@ article {
     top: var(--size);
     left: 50%;
     margin-left: var(--minusSize);
-    background-color: #d9d4ab;
+    background-color: #CDCCCC;
     z-index: 21;
     width: 0;
     height: 0;
@@ -30,6 +30,10 @@ article.active {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+.text p{
+	text-align: justify;
+}
+
 :root {
     --size: calc(100vh/4);
     --Lsize: calc(100vw/-2);
@@ -192,6 +196,7 @@ article.active {
 }
 .stik {
     position: fixed;
+	z-index: 20;
 }
 .um,
 .us,
