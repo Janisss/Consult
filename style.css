@@ -270,7 +270,7 @@ article.active {
     line-height: 2.2;
 }
 .marti-consult{
-	position:absolute;
+	position:relative;
 	margin-left: 10px;
 	margin-top: 5px;
 }
@@ -300,4 +300,13 @@ article.active {
 }
 .header-photo.photo-1{
 	background-image: url(./img/header-1.jpg);
+}
+.cubes{
+	width: calc(var(--size) * 2);
+	height: calc(var(--size) * 2);
+	margin: auto;
+	margin-top: var(--size);
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
