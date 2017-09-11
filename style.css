@@ -270,7 +270,7 @@ article.active {
     line-height: 2.2;
 }
 .marti-consult{
-	position:relative;
+	position:absolute;
 	margin-left: 10px;
 	margin-top: 5px;
 }
