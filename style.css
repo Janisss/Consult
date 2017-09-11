@@ -41,6 +41,7 @@ article.active {
     --colorC: #625498;
     --colorD: #579955;
 }
+
 .cube-center {
     width: calc(2*var(--size));
     margin-top: var(--size);
@@ -57,6 +58,19 @@ article.active {
     transition: all .4s ease;
     z-index: 10;
     overflow: hidden;
+}
+.kocka{
+	position: absolute;
+    width: var(--bigSize);
+    height: var(--bigSize);
+    top: var(--size);
+    margin-left: 50%;
+    left: var(--minusSize);
+    z-index: 1;
+ 	display: block;
+	-webkit-box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
 }
 .cubeA {
     background-color: var(--colorA);
