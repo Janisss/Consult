@@ -72,9 +72,9 @@ article.active {
     left: var(--minusSize);
     z-index: 1;
  	display: block;
-	-webkit-box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.25);
+	box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.25);
 }
 .cubeA {
     background-color: var(--colorA);
@@ -328,4 +328,8 @@ article.active {
 	-webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.2);
     box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.2);
+}
+
+p.team{
+	line-height: 1;
 }
